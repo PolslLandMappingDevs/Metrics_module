@@ -1,0 +1,9 @@
+Dla metryk mamy 2 pliki:
+metrics.py - zawiera matematykę do liczenia punktów 
+evaluate_system.py - łączy funkcje aplikacji (terramindFunctions) z metrics.py
+
+Rozruch:
+1. wrzucić oba pliki do lokalizacji w której znajduje się terramind (czyli folder "io-app-backend")
+2. cmd w lokalizacji projektu:  python evaluate_system.py
+
+Współrzędne są ustawione na sztywno w kodzie w evaluate_system.py jako "run_evaluation(50.0647, 19.9450, buffer_km=3)", trzeba je połączyć z tymi wybieranymi w apce jeśli chcemy te metryki tam bezpośrednio zaimplementować.
